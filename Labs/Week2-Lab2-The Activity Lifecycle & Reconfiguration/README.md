@@ -1,6 +1,11 @@
-I had different errors(probably just emulator version related) in my log and couldn't select only info logs.
+I had different errors in my log(probably just emulator version related) and couldn't select only info(Log.e) logs.
 
 So to submit you need to copy only info logs.
 
-InitialLogWithErrors.txt - here is example of my initial logs
-SuccessfullySubmittedLog.txt - same log but without errors and warnings
+InitialLogWithErrors.txt 
+------------------
+here is example of my initial logs
+
+SuccessfullySubmittedLog.txt 
+------------------
+same log but without errors and warnings
