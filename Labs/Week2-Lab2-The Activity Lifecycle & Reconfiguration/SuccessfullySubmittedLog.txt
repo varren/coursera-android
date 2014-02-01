@@ -1,0 +1,34 @@
+02-01 19:45:28.433: I/TestRunner(1747): started: testRun(course.labs.activitylab.test.Test3)
+02-01 19:45:28.533: I/TestRunner(1747): finished: testRun(course.labs.activitylab.test.Test3)
+02-01 19:45:28.533: I/TestRunner(1747): passed: testRun(course.labs.activitylab.test.Test3)
+02-01 19:45:29.753: I/TestRunner(1773): started: testRun(course.labs.activitylab.test.Test3)
+02-01 19:45:30.293: I/Lab-ActivityOne(1773): Entered the onCreate() method
+02-01 19:45:30.293: I/Lab-ActivityOne(1773): Entered the onStart() method
+02-01 19:45:30.293: I/Lab-ActivityOne(1773): Entered the onResume() method
+02-01 19:45:36.552: I/Lab-ActivityOne(1773): Entered the onPause() method
+02-01 19:45:36.752: I/Lab-ActivityTwo(1773): Entered the onCreate() method
+02-01 19:45:36.752: I/Lab-ActivityTwo(1773): Entered the onStart() method
+02-01 19:45:36.752: I/Lab-ActivityTwo(1773): Entered the onResume() method
+02-01 19:45:37.582: I/Lab-ActivityOne(1773): Entered the onStop() method
+02-01 19:45:42.222: I/Lab-ActivityTwo(1773): Entered the onPause() method
+02-01 19:45:42.332: I/Lab-ActivityOne(1773): Entered the onRestart() method
+02-01 19:45:42.332: I/Lab-ActivityOne(1773): Entered the onStart() method
+02-01 19:45:42.332: I/Lab-ActivityOne(1773): Entered the onResume() method
+02-01 19:45:43.072: I/Lab-ActivityTwo(1773): Entered the onStop() method
+02-01 19:45:43.072: I/Lab-ActivityTwo(1773): Entered the onDestroy() method
+02-01 19:45:47.523: I/Lab-ActivityOne(1773): Entered the onPause() method
+02-01 19:45:47.602: I/Lab-ActivityTwo(1773): Entered the onCreate() method
+02-01 19:45:47.602: I/Lab-ActivityTwo(1773): Entered the onStart() method
+02-01 19:45:47.602: I/Lab-ActivityTwo(1773): Entered the onResume() method
+02-01 19:45:48.302: I/Lab-ActivityOne(1773): Entered the onStop() method
+02-01 19:45:52.362: I/Lab-ActivityTwo(1773): Entered the onPause() method
+02-01 19:45:52.372: I/Lab-ActivityOne(1773): Entered the onRestart() method
+02-01 19:45:52.382: I/Lab-ActivityOne(1773): Entered the onStart() method
+02-01 19:45:52.382: I/Lab-ActivityOne(1773): Entered the onResume() method
+02-01 19:45:52.812: I/Lab-ActivityOne(1773): Entered the onPause() method
+02-01 19:45:53.122: I/Lab-ActivityOne(1773): Entered the onStop() method
+02-01 19:45:53.122: I/Lab-ActivityOne(1773): Entered the onDestroy() method
+02-01 19:45:53.522: I/Lab-ActivityTwo(1773): Entered the onStop() method
+02-01 19:45:53.522: I/Lab-ActivityTwo(1773): Entered the onDestroy() method
+02-01 19:45:54.175: I/TestRunner(1773): finished: testRun(course.labs.activitylab.test.Test3)
+02-01 19:45:54.175: I/TestRunner(1773): passed: testRun(course.labs.activitylab.test.Test3)
