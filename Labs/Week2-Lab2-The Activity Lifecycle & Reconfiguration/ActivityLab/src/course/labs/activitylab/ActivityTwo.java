@@ -10,7 +10,7 @@ import android.widget.Button;
 public class ActivityTwo extends GenericActivity {
 
 	// String for LogCat documentation
-	private static final String TAG = "2: ";
+	private final static String TAG = "Lab-ActivityTwo";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,6 @@ public class ActivityTwo extends GenericActivity {
 
 			@Override
 			public void onClick(View v) {
-				Log.w(tag(), "------------------------------------------------------");
 				finish();
 			}
 		});

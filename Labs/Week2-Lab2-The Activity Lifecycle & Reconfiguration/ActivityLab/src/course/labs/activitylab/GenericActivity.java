@@ -18,13 +18,13 @@ public class GenericActivity extends Activity {
 	
 	private static final String TAG = "";
 	
-	private static final String CREATE_LOG_TEXT   = "| >   1)onCreate  |";
-	private static final String START_LOG_TEXT    = "| >>  2)onStart   |";
-	private static final String RESUME_LOG_TEXT   = "| >>> 3)onResume  |";
-	private static final String PAUSE_LOG_TEXT    = "| <<< 4)onPause   |";
-	private static final String STOP_LOG_TEXT     = "| <<  5)onStop    |";
-	private static final String DESTROY_LOG_TEXT  = "| <   6)onDestroy |";
-	private static final String RESTART_LOG_TEXT  = "| --- 6)onRestart |";
+	private static final String CREATE_LOG_TEXT   = "Entered the onCreate() method";
+	private static final String START_LOG_TEXT    = "Entered the onStart() method";
+	private static final String RESUME_LOG_TEXT   = "Entered the onResume() method";
+	private static final String PAUSE_LOG_TEXT    = "Entered the onPause() method";
+	private static final String STOP_LOG_TEXT     = "Entered the onStop() method";
+	private static final String DESTROY_LOG_TEXT  = "Entered the onDestroy() method";
+	private static final String RESTART_LOG_TEXT  = "Entered the onRestart() method";
 	private int mCreate = 0;
 	private int mStart = 0;
 	private int mResume = 0;
@@ -74,7 +74,7 @@ public class GenericActivity extends Activity {
 		}
 
 		// TODO: Emit LogCat message
-		Log.i(tag(), tag() + CREATE_LOG_TEXT);
+		Log.i(tag(), CREATE_LOG_TEXT);
 
 		// TODO:
 		// Update the appropriate count variable
@@ -91,7 +91,7 @@ public class GenericActivity extends Activity {
 			super.onStart();
 			
 			// TODO: Emit LogCat message
-			Log.i(tag(), tag() + START_LOG_TEXT);
+			Log.i(tag(), START_LOG_TEXT);
 			
 			// TODO:
 			// Update the appropriate count variable
@@ -107,7 +107,7 @@ public class GenericActivity extends Activity {
 			super.onResume();
 			
 			// TODO: Emit LogCat message
-			Log.i(tag(), tag() + RESUME_LOG_TEXT);
+			Log.i(tag(), RESUME_LOG_TEXT);
 			
 
 			// TODO:
@@ -122,7 +122,7 @@ public class GenericActivity extends Activity {
 			super.onPause();
 
 			// TODO: Emit LogCat message
-			Log.i(tag(), tag() + PAUSE_LOG_TEXT);
+			Log.i(tag(), PAUSE_LOG_TEXT);
 		}
 
 		@Override
@@ -130,7 +130,7 @@ public class GenericActivity extends Activity {
 			super.onStop();
 
 			// TODO: Emit LogCat message
-			Log.i(tag(), tag() + STOP_LOG_TEXT);
+			Log.i(tag(), STOP_LOG_TEXT);
 
 		}
 
@@ -139,7 +139,7 @@ public class GenericActivity extends Activity {
 			super.onRestart();
 
 			// TODO: Emit LogCat message
-			Log.i(tag(), tag() +  RESTART_LOG_TEXT );
+			Log.i(tag(), RESTART_LOG_TEXT );
 			
 			// TODO:
 			// Update the appropriate count variable
@@ -154,7 +154,7 @@ public class GenericActivity extends Activity {
 			super.onDestroy();
 
 			// TODO: Emit LogCat message
-			Log.i(tag(), tag() + DESTROY_LOG_TEXT );
+			Log.i(tag(), DESTROY_LOG_TEXT );
 
 
 		}

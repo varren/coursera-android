@@ -13,7 +13,7 @@ import android.widget.TextView;
 public class ActivityOne extends GenericActivity {
 
 	// String for LogCat documentation
-	private static final String TAG = "1: |                 ";
+	private final static String TAG = "Lab-ActivityOne";
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,6 @@ public class ActivityOne extends GenericActivity {
 			
 			@Override
 			public void onClick(View v) {
-				Log.w(tag(), "+++++++++++++++++++++++++++++++++++++++++++++");
 				// TODO:
 				// Launch Activity Two
 				// Hint: use Context's startActivity() method
