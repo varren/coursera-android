@@ -38,11 +38,6 @@ public class GenericActivity extends Activity {
 	private TextView mTvResume;
 	private TextView mTvRestart;
 	
-	protected Context getCurrentContext(){
-		return this.getApplicationContext();
-		
-	}
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

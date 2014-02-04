@@ -1,5 +1,10 @@
-Programming Mobile Applications for Android Handheld Systems by Dr. Adam Porter
+Programming Mobile Applications for Android Handheld Systems 
 ================
+
+by Dr. Adam Porter
+----------------
+
+https://class.coursera.org/android-001
 
 Examples
 -------
