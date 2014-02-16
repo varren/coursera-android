@@ -86,24 +86,26 @@ public class ToDoListAdapter extends BaseAdapter {
 
 
 		//TODO - Get the current ToDoItem
-		final ToDoItem toDoItem = null;
+		final ToDoItem toDoItem = (ToDoItem)getItem(position);
 
 		//TODO - Inflate the View for this ToDoItem
 		// from todo_item.xml.
-		RelativeLayout itemLayout = null;
+		RelativeLayout itemLayout = (RelativeLayout) LayoutInflater.from(mContext).inflate(R.layout.todo_item,parent,false);
 		
 		//TODO - Fill in specific ToDoItem data
 		// Remember that the data that goes in this View
 		// corresponds to the user interface elements defined 
 		// in the layout file 
-
+		
 		//TODO - Display Title in TextView
 
-		final TextView titleView = null;
+		final TextView titleView = (TextView) itemLayout.findViewById(R.id.titleView);
+		titleView.setText(toDoItem.getTitle());
 		
 		// TODO - Set up Status CheckBox
 	
-		final CheckBox statusView = null;
+		final CheckBox statusView =  (CheckBox) itemLayout.findViewById(R.id.statusCheckBox);
+		
 		
 		
 		statusView.setOnCheckedChangeListener(new OnCheckedChangeListener() {
@@ -111,25 +113,25 @@ public class ToDoListAdapter extends BaseAdapter {
 			public void onCheckedChanged(CompoundButton buttonView,
 					boolean isChecked) {
 				log("Entered onCheckedChanged()");
-				
+
 				// TODO - Set up and implement an OnCheckedChangeListener, which 
 				// is called when the user toggles the status checkbox
-
-
+				statusView.toggle();
+				toDoItem.setStatus(ToDoItem.Status.DONE);
 			
 			}
 		});
 
 		//TODO - Display Priority in a TextView
 
-		final TextView priorityView = null;
-
+		final TextView priorityView = (TextView) itemLayout.findViewById(R.id.priorityView);
+		priorityView.setText(toDoItem.getPriority().toString());
 		
 		// TODO - Display Time and Date. 
 		// Hint - use ToDoItem.FORMAT.format(toDoItem.getDate()) to get date and time String
 
-		final TextView dateView = null;
-				
+		final TextView dateView = (TextView) itemLayout.findViewById(R.id.dateView);
+		dateView.setText(ToDoItem.FORMAT.format(toDoItem.getDate()));
 
 		// Return the View you just created
 		return itemLayout;
